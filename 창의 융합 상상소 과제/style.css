@@ -13,9 +13,18 @@ html{
     height: 100%;
 }
 
-
-.clock {
-    width: max-content;
-    height: 100%;
-    margin:0 auto;
+body{
+    position: relative;
+    color: white;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    font-size: 3vw;
+}
+.clock{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
